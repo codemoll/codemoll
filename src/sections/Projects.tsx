@@ -52,7 +52,7 @@ const Projects = () => {
     {
       title: 'Palmigo Fintech Platform',
       category: 'Fintech',
-      image: '/images/project-palmigo.jpg',
+      image: '/codemoll/images/project-palmigo.jpg',
       description:
         'A comprehensive fintech platform featuring virtual cards, user transactions, and wallet systems. Built with secure payment processing APIs and real-time transaction tracking.',
       technologies: ['Laravel', 'React', 'MySQL', 'Stripe API', 'Node.js'],
@@ -70,7 +70,7 @@ const Projects = () => {
     {
       title: 'WHMCS Automation Module',
       category: 'Hosting Automation',
-      image: '/images/project-whmcs.jpg',
+      image: '/codemoll/images/project-whmcs.jpg',
       description:
         'Custom WHMCS module with automated reseller billing logic, tier pricing, account counting, and annual invoice generation for hosting providers.',
       technologies: ['PHP', 'WHMCS', 'MySQL', 'cPanel API', 'Stripe'],
@@ -88,7 +88,7 @@ const Projects = () => {
     {
       title: 'ItanHub Yoruba Stories',
       category: 'Content Platform',
-      image: '/images/project-itanhub.jpg',
+      image: '/codemoll/images/project-itanhub.jpg',
       description:
         'A cultural content management system for Yoruba stories with categorization, monetization features, and an immersive reading experience.',
       technologies: ['Laravel', 'Vue.js', 'MySQL', 'AWS S3', 'Paystack'],
@@ -226,7 +226,7 @@ const Projects = () => {
           {/* View All Button */}
           <div className="text-center mt-12">
             <a
-              href="https://github.com"
+              href="https://github.com/codemoll"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 border border-purple-500/50 text-white font-medium rounded-full hover:bg-purple-500/10 hover:border-purple-500 transition-all duration-300"
