@@ -242,7 +242,7 @@ const Hero = () => {
                 {/* Image Container */}
                 <div className="relative w-72 h-96 sm:w-80 sm:h-[28rem] lg:w-96 lg:h-[32rem] rounded-3xl overflow-hidden border border-white/10">
                   <img
-                    src="/images/hero-portrait.jpg"
+                    src="/codemoll/images/hero-portrait.jpg"
                     alt="Olamilekan Ademola"
                     className="w-full h-full object-cover"
                   />
