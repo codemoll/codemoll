@@ -124,7 +124,7 @@ const About = () => {
                 {/* Main Image */}
                 <div className="relative rounded-3xl overflow-hidden border border-white/10">
                   <img
-                    src="/images/hero-portrait.jpg"
+                    src="/codemoll/images/hero-portrait.jpg"
                     alt="Olamilekan Ademola"
                     className="w-full h-auto object-cover"
                   />
