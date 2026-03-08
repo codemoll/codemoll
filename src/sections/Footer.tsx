@@ -22,10 +22,10 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/olamilekan-ademola', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:olamilekan.ademola.2016@gmail.com', label: 'Email' },
+    { icon: Github, href: 'https://github.com/codemoll', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/codemoll', label: 'LinkedIn' },
+    { icon: Twitter, href: 'https://x.com/codemoll', label: 'Twitter' },
+    { icon: Mail, href: 'mailto:contact@codemoll.dev', label: 'Email' },
   ];
 
   const scrollToSection = (href: string) => {
@@ -113,11 +113,11 @@ const Footer = () => {
               <ul className="space-y-4">
                 <li>
                   <a
-                    href="mailto:olamilekan.ademola.2016@gmail.com"
+                    href="mailto:contact@codemoll.dev"
                     className="text-gray-400 hover:text-purple-400 transition-colors text-sm flex items-center gap-2"
                   >
                     <Mail className="w-4 h-4" />
-                    olamilekan.ademola.2016@gmail.com
+                    contact@codemoll.dev
                   </a>
                 </li>
                 <li>
@@ -174,11 +174,7 @@ const Footer = () => {
         <div className="section-padding py-6">
           <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-gray-500 text-sm text-center sm:text-left">
-              © {currentYear} Olamilekan Ademola. All rights reserved.
-            </p>
-            <p className="text-gray-500 text-sm flex items-center gap-1">
-              Built with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> and{' '}
-              <Code className="w-4 h-4 text-purple-500" />
+              © {currentYear} Olamilekan Ademola ( CodeMoll ). All rights reserved.
             </p>
           </div>
         </div>
