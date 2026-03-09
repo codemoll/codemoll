@@ -40,9 +40,9 @@ const Footer = () => {
       {/* Main Footer */}
       <div className="section-padding py-16">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
             {/* Brand */}
-            <div className="lg:col-span-1">
+            <div className="col-span-2 lg:col-span-1">
               <a
                 href="#home"
                 onClick={(e) => {
@@ -108,7 +108,7 @@ const Footer = () => {
             </div>
 
             {/* Contact Info */}
-            <div>
+            <div className="col-span-2 lg:col-span-1">
               <h4 className="text-white font-semibold mb-5">Contact Info</h4>
               <ul className="space-y-4">
                 <li>
