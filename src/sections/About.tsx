@@ -174,7 +174,7 @@ const About = () => {
                 <div className="glass-card p-4">
                   <p className="text-sm text-gray-500 mb-1">Email</p>
                   <p className="text-white font-medium text-sm">
-                    olamilekan.ademola.2016@gmail.com
+                    contact@codemoll.dev
                   </p>
                 </div>
                 <div className="glass-card p-4">

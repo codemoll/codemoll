@@ -1,4 +1,4 @@
-import { Heart, Code, Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import {  Github, Linkedin, Twitter, Mail } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -24,7 +24,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/codemoll', label: 'GitHub' },
     { icon: Linkedin, href: 'https://linkedin.com/in/codemoll', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://x.com/codemoll', label: 'Twitter' },
+    { icon: Twitter, href: 'https://x.com/codemoll', label: 'X' },
     { icon: Mail, href: 'mailto:contact@codemoll.dev', label: 'Email' },
   ];
 
